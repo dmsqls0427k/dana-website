@@ -1,0 +1,22 @@
+mat-toolbar {
+    bottom: 0;
+    position: fixed;
+    background-color: pink;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+}
+
+button :hover {
+    cursor: pointer;
+}
+
+mat-nav-list button {
+    border-bottom: 2px solid transparent;
+}
+mat-nav-list button:hover {
+    cursor: pointer;
+    border-bottom: 2px solid deeppink;
+}

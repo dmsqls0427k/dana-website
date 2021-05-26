@@ -1,0 +1,11 @@
+
+<div class="info">
+    <i class="icon fa fa-map-marker fa-lg"></i>Atlanta, GA
+    <i class="icon fa fa-envelope"></i>danaeblee@gmail.com
+    <i class="icon fa fa-mobile fa-lg"></i>770-312-8924
+</div>
+<mat-toolbar>
+    <mat-nav-list>
+            <button mat-menu-item class="item" *ngFor="let menu of menuList" routerLink="{{menu.route}}">{{menu.name}}</button>
+    </mat-nav-list>
+</mat-toolbar>

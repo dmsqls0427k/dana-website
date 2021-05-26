@@ -1,0 +1,40 @@
+.card {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content {
+    margin: auto;
+    width: 50%;
+}
+
+.icon {
+    padding-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding-top: 10px;
+}
+.divider {
+    border-top: 2px dotted #bbb;
+}
+button {
+    padding: 12px;
+    border: none;
+    background-color: inherit;
+}
+button i {
+    border-bottom: 2px solid transparent;
+}
+
+button i:hover {
+    border-bottom: 2px solid deeppink;
+    cursor: pointer;
+}
